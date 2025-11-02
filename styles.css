@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: auto;
+    width: 1440px;
+    background-color: hsl(0, 0%, 8%);
+}
+.content-box {
+    width: 340px;
+    height: 440px;
+    border: 2px solid white;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
+    background-color: hsl(0, 0%, 12%);
+    border: none;
+    border-radius: 10px;
+}
+#avt {
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    background-color: white;
+}
+#name-dev {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 110px;
+    color: hsl(0, 0%, 100%);
+}
+#local {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 138px;
+}
+p {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 180px;
+}
+button {
+    position: fixed;
+    width: 240px;
+    height: 35px;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+#github {
+    top: 210px;
+}
+#fro-men {
+    top: 250px;
+}
+#linkedln {
+    top: 290px;
+}
+#twitter {
+    top: 330px;
+}
+#instagram {
+    top: 370px;
+}
