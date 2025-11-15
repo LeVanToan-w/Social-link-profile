@@ -35,9 +35,9 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 23px;
     position: fixed;
-    left: 50%;
+    left: 168px;
     transform: translateX(-50%);
-    top: 110px;
+    top: 100px;
     color: hsl(0, 0%, 100%);
 }
 #local {
@@ -75,18 +75,18 @@ button:hover {
     background-color: hsl(75, 94%, 57%);
     color: black;
 }
-#github {
+#facebook {
     top: 210px;
 }
-#fro-men {
+#zalo {
     top: 250px;
 }
-#linkedln {
+#discord {
     top: 290px;
 }
-#twitter {
+#sms {
     top: 330px;
 }
-#instagram {
+#email {
     top: 370px;
 }
